@@ -1,0 +1,15 @@
+help
+pointset help
+pointSet 
+pointSet p1 new boxToPoint (-1 -1 -0.0001) (1 1 0.0001)
+quit
+pointSet p1 new boxToPoint (-1 -1 -0.00001) (1 1 0)
+pointSet p1 new boxToPoint (-1 -1 -1) (1 1 0)
+quit
+cellSet c0 new boxToCell (0 0 0) (0.03 0.03 0.01)
+quit
+cellSet c0 new boxToCell (0 0 -0.01) (0.03 0.03 0.01)
+quit
+cellSet c0 new boxToCell (0 0 -0.01) (0.3 0.3 0.01)
+exit
+quit

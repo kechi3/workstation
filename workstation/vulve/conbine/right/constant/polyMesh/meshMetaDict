@@ -1,0 +1,88 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2306                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       dictionary;
+    location    "constant/polyMesh";
+    object      meshMetaDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+surfaceFile     "mix_right_m.fms";
+
+surfaceMeta
+{
+    nPoints         8;
+    nFacets         12;
+    nPatches        3;
+    nFeatureEdges   12;
+    patches
+    {
+        patch0
+        {
+            type            empty;
+            nFacets         59;
+        }
+        inlet
+        {
+            type            empty;
+            nFacets         124;
+        }
+        outlet
+        {
+            type            empty;
+            nFacets         2;
+        }
+        wall
+        {
+            type            empty;
+            nFacets         8;
+        }
+        face1
+        {
+            type            empty;
+            nFacets         2;
+        }
+        face2
+        {
+            type            empty;
+            nFacets         2;
+        }
+        wall1
+        {
+            type            empty;
+            nFacets         180;
+        }
+        wall2
+        {
+            type            empty;
+            nFacets         59;
+        }
+        face
+        {
+            type            empty;
+            nFacets         2;
+        }
+    }
+    pointSubsets
+    {
+    }
+    facetSubsets
+    {
+    }
+    featureEdgeSubsets
+    {
+    }
+}
+
+lastStep        meshOptimisation;
+
+completedSteps  16 ( start start templateGeneration templateGeneration surfaceTopology surfaceTopology surfaceProjection surfaceProjection patchAssignment patchAssignment edgeExtraction edgeExtraction boundaryLayerGeneration boundaryLayerGeneration meshOptimisation meshOptimisation );

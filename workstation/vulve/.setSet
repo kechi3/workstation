@@ -1,0 +1,27 @@
+cellSet c0 new boxToCell (-1 -1 0) (1 1 -1)
+cellSet c1 new boxToCell (-1 -1 0) (1 1 1)
+cellZoneSet c0zone new setToCellZone c0
+cellZoneSet c1zone new setToCellZone c1
+quit
+cellSet c0 new boxToCell (-1 -1 0) (1 1 -1)
+cellSet c0 new boxToCell (-1 -1 0) (1 1 1)
+cellSet c0 new boxToCell (-1 -1 0) (1 1 -1)
+cellSet c1 new boxToCell (-1 -1 0) (1 1 1)
+cellZoneSet c1zone new setToCellZone c1
+cellZoneSet c0zone new setToCellZone c0
+cellSet c0 new boxToCell (-1 -1 -1) (1 1 0)
+cellZoneSet c0zone new setToCellZone c0
+exit
+la
+quit
+cellSet c0 new boxToCell (-1 -1 -1) (1 1 0)
+cellSet c0 new boxToCell (-1 -1 0) (1 1 1)
+cellZoneSet c0zone new setToCellZone c0
+cellZoneSet c1zone new setToCellZone c1
+quit
+cellZoneSet c1zone new setToCellZone c1
+cellSet c0 new boxToCell (-1 -1 -1) (1 1 0)
+cellSet c1 new boxToCell (-1 -1 0) (1 1 1)
+cellZoneSet c1zone new setToCellZone c1
+cellZoneSet c0zone new setToCellZone c0
+quit
