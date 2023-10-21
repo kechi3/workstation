@@ -18,24 +18,24 @@ FoamFile
 
 dimensions      [0 2 -1 0 0 0 0];
 
-internalField   uniform 0.004;
+internalField   uniform 0.000117;
 
 boundaryField
 {
     face
     {
         type            calculated;
-        value           uniform 0.004;
+        value           uniform 0.000117;
     }
     outlet
     {
         type            calculated;
-        value           uniform 0.004;
+        value           uniform 0.000117;
     }
     wall
     {
         type            calculated;
-        value           uniform 0.004;
+        value           uniform 0.000117;
     }
 }
 
