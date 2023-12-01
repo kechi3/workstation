@@ -35,13 +35,19 @@
 ![すてきな画像](cad12.png)
     1. 任意のメッシャーでメッシュを作成(今回はpMesh)
 ![すてきな画像](cad13.png)
-- a
-- a
-- a
+    1. 個別のメッシュをマージ①マージ対象のメッシュ情報を移動②マージコマンドを実行
+![すてきな画像](cad14.png)
+- 解析条件を設定
+    1. 壁面タイプを設定 今回は全てWall outletとinletはpatchでも良い<br>file:constant/polyMesh/boundary
+![すてきな画像](case15.png)
+    1. 境界条件を設定<br>file:0/T
+![すてきな画像](cad16.png)
+- 解析を実行する<br>今回はlaplacianFoam
+- 解析結果を可視化<br>command:foamToVTK
  
 
 
 
 ---
 
-sa
+

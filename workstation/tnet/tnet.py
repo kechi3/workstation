@@ -24,9 +24,9 @@ def w_net(nlist):
     with schemdraw.Drawing() as d:
         for i in range(len(nlist)):
             if nlist.loc[i,'address'] == "v":
-                d += elm.Resistor().up()
+                d += elm.Resistor().up().label(nlist.loc[i,'name']).label(str(round(nlist.loc[i,'resist[K/W]'],2))+' K/W', loc='bottom')
             elif nlist.loc[i,'address'] == "h":
-                d += elm.Resistor().right()
+                d += elm.Resistor().right().label(nlist.loc[i,'name']).label(str(round(nlist.loc[i,'resist[K/W]'],2))+' K/W', ofst=-2)
 
 schemdraw.theme('monokai')
 

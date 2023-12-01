@@ -1,6 +1,36 @@
 {
   "file-series-version" : "1.0",
   "files" : [
-    { "name" : "openfoam_0.vtm", "time" : 0 }
+    { "name" : "openfoam_0.vtm", "time" : 0 },
+    { "name" : "openfoam_20.vtm", "time" : 0.1 },
+    { "name" : "openfoam_40.vtm", "time" : 0.2 },
+    { "name" : "openfoam_60.vtm", "time" : 0.3 },
+    { "name" : "openfoam_80.vtm", "time" : 0.4 },
+    { "name" : "openfoam_100.vtm", "time" : 0.5 },
+    { "name" : "openfoam_120.vtm", "time" : 0.6 },
+    { "name" : "openfoam_140.vtm", "time" : 0.7 },
+    { "name" : "openfoam_160.vtm", "time" : 0.8 },
+    { "name" : "openfoam_180.vtm", "time" : 0.9 },
+    { "name" : "openfoam_200.vtm", "time" : 1 },
+    { "name" : "openfoam_220.vtm", "time" : 1.1 },
+    { "name" : "openfoam_240.vtm", "time" : 1.2 },
+    { "name" : "openfoam_260.vtm", "time" : 1.3 },
+    { "name" : "openfoam_280.vtm", "time" : 1.4 },
+    { "name" : "openfoam_300.vtm", "time" : 1.5 },
+    { "name" : "openfoam_320.vtm", "time" : 1.6 },
+    { "name" : "openfoam_340.vtm", "time" : 1.7 },
+    { "name" : "openfoam_360.vtm", "time" : 1.8 },
+    { "name" : "openfoam_380.vtm", "time" : 1.9 },
+    { "name" : "openfoam_400.vtm", "time" : 2 },
+    { "name" : "openfoam_420.vtm", "time" : 2.1 },
+    { "name" : "openfoam_440.vtm", "time" : 2.2 },
+    { "name" : "openfoam_460.vtm", "time" : 2.3 },
+    { "name" : "openfoam_480.vtm", "time" : 2.4 },
+    { "name" : "openfoam_500.vtm", "time" : 2.5 },
+    { "name" : "openfoam_520.vtm", "time" : 2.6 },
+    { "name" : "openfoam_540.vtm", "time" : 2.7 },
+    { "name" : "openfoam_560.vtm", "time" : 2.8 },
+    { "name" : "openfoam_580.vtm", "time" : 2.9 },
+    { "name" : "openfoam_600.vtm", "time" : 3 }
   ]
 }

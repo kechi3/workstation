@@ -1,3 +1,12 @@
-name,rasist[K/W],address
-doutai1,2,v
-doutai2,2,h
+name,node_s,node_e,resist[K/W],address
+doutai1,1,2,8.3333333333,h
+doutai2,2,3,8.3333333333,h
+doutai3,3,4,8.3333333333,h
+doutai4,4,5,8.3333333333,h
+doutai5,5,6,8.3333333333,h
+toair,1,7,37.037037,a
+toair,2,7,37.037037,a
+toair,3,7,37.037037,a
+toair,4,7,37.037037,a
+toair,5,7,37.037037,a
+toair,6,7,37.037037,a
