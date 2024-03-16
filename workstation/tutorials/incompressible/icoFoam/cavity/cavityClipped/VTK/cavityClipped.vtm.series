@@ -1,0 +1,8 @@
+{
+  "file-series-version" : "1.0",
+  "files" : [
+    { "name" : "cavityClipped_0.vtm", "time" : 0 },
+    { "name" : "cavityClipped_1.vtm", "time" : 0.5 },
+    { "name" : "cavityClipped_20.vtm", "time" : 0.6 }
+  ]
+}

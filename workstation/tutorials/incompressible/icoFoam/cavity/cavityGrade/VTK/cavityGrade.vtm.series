@@ -1,0 +1,9 @@
+{
+  "file-series-version" : "1.0",
+  "files" : [
+    { "name" : "cavityGrade_0.vtm", "time" : 0 },
+    { "name" : "cavityGrade_1.vtm", "time" : 0.5 },
+    { "name" : "cavityGrade_40.vtm", "time" : 0.6 },
+    { "name" : "cavityGrade_80.vtm", "time" : 0.7 }
+  ]
+}

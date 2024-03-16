@@ -1,0 +1,26 @@
+{
+  "file-series-version" : "1.0",
+  "files" : [
+    { "name" : "cavityHighRe_0.vtm", "time" : 0 },
+    { "name" : "cavityHighRe_20.vtm", "time" : 0.1 },
+    { "name" : "cavityHighRe_40.vtm", "time" : 0.2 },
+    { "name" : "cavityHighRe_60.vtm", "time" : 0.3 },
+    { "name" : "cavityHighRe_80.vtm", "time" : 0.4 },
+    { "name" : "cavityHighRe_100.vtm", "time" : 0.5 },
+    { "name" : "cavityHighRe_120.vtm", "time" : 0.6 },
+    { "name" : "cavityHighRe_140.vtm", "time" : 0.7 },
+    { "name" : "cavityHighRe_160.vtm", "time" : 0.8 },
+    { "name" : "cavityHighRe_180.vtm", "time" : 0.9 },
+    { "name" : "cavityHighRe_200.vtm", "time" : 1 },
+    { "name" : "cavityHighRe_220.vtm", "time" : 1.1 },
+    { "name" : "cavityHighRe_240.vtm", "time" : 1.2 },
+    { "name" : "cavityHighRe_260.vtm", "time" : 1.3 },
+    { "name" : "cavityHighRe_280.vtm", "time" : 1.4 },
+    { "name" : "cavityHighRe_300.vtm", "time" : 1.5 },
+    { "name" : "cavityHighRe_320.vtm", "time" : 1.6 },
+    { "name" : "cavityHighRe_340.vtm", "time" : 1.7 },
+    { "name" : "cavityHighRe_360.vtm", "time" : 1.8 },
+    { "name" : "cavityHighRe_380.vtm", "time" : 1.9 },
+    { "name" : "cavityHighRe_400.vtm", "time" : 2 }
+  ]
+}
